@@ -13,7 +13,7 @@ It is recommended to use an IDE (CLion, Visual Studio, ...) but everything can b
    
 **Step 1**: clone the repository 
 ```
-git clone --recursive https://github.com/Realtime-Rendering-II/Lab-1.git
+git clone --recursive https://github.com/Realtime-Rendering-II/Lab_1.git
 ```
 **Step 2**: create a build folder in the project folder
 ```
@@ -59,7 +59,7 @@ sudo apt-get install git cmake libxrandr-dev libxinerama-dev libxcursor-dev libx
 
 **Step 2**: clone the repository 
 ```
-git clone --recursive https://github.com/Realtime-Rendering-II/Lab-1.git
+git clone --recursive https://github.com/Realtime-Rendering-II/Lab_1.git
 ```
 
 **Step 3**: create a build folder in the project folder
