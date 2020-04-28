@@ -88,9 +88,9 @@ This might help you to verify if the model is defined correctly.
   
 **Final result**: the final result should look like this:   
   ![result](https://www.uni-weimar.de/~bexo5814/rrII/images/result.png)  
-    
-  with wireframe activated:
+     
+  with wireframe activated:  
   ![result](https://www.uni-weimar.de/~bexo5814/rrII/images/result_wireframe.png)  
     
-  with rotation activated:
+  with rotation activated:  
   ![result](https://www.uni-weimar.de/~bexo5814/rrII/images/result_rotation.gif)   
