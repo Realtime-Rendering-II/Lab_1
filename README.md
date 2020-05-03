@@ -1,5 +1,4 @@
 # Lab-1
-The basis for this framework was https://github.com/ArthurSonzogni/OpenGL_CMake_Skeleton
 
 Installation on Windows:
 ========================
@@ -10,20 +9,35 @@ It is recommended to use an IDE (CLion, Visual Studio, ...) but everything can b
 - [cmake](https://cmake.org/download/)
 - [make for windows](http://gnuwin32.sourceforge.net/packages/make.htm)  
 - compiler and cmake generator i.e. [MinGW-w64](https://sourceforge.net/projects/mingw-w64/)  
+  
+**Note**: One way to install MinGW 64:
+- install [MSYS2](https://www.msys2.org/)  
+- open the newly installed MSYS2 Shell
+- install MinGW 64 using the MSYS2 Shell  
+```
+pacman -S mingw-w64-x86_64-gcc
+```  
+- add the folder MSYS2_root/mingw64/bin (i.e. C:\msys64\mingw64\bin) to your PATH environment variable  
    
+You can also follow this [tutorial](https://www.youtube.com/watch?v=f3Ion00p78M) to install MinGW 64.  
+  
+**Step 0**: open the windows console (cmd) and go into the folder where the project files should be saved
+  
 **Step 1**: clone the repository 
 ```
 git clone --recursive https://github.com/Realtime-Rendering-II/Lab_1.git
-```
+```  
+**Note**: this will copy the necessary project files into the current directory.    
+  
 **Step 2**: create a build folder in the project folder
 ```
-cd Lab-1
+cd Lab_1
 mkdir build
 ```  
 **Step 3**: open cmake-gui:  
 ![Cmake](https://www.uni-weimar.de/~bexo5814/rrII/images/CMake-0.png) 
   
-  select the source and build folder as seen in the image  
+  select the source (C:\\..\Lab_1) and build folder (C:\\..\Lab_1\build)    
   click "generate" and select the cmake generator  
   (in this case MinGW Makefiles is chosen)  
   **Note**: make sure the environment variable for the generator is set  
@@ -51,6 +65,8 @@ Installation on Linux:
 ========================
 It is recommended to use an IDE (CLion, Visual Studio, ...) but everything can be done without as well  
 
+**Step 0:** open a terminal  
+  
 **Step 1**: install dependencies  
 ```
 sudo apt-get update
@@ -64,7 +80,7 @@ git clone --recursive https://github.com/Realtime-Rendering-II/Lab_1.git
 
 **Step 3**: create a build folder in the project folder
 ```
-cd Lab-1
+cd Lab_1
 mkdir build
 ```
 **Step 4**: inside the build folder generate the cmake project
