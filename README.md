@@ -3,7 +3,9 @@
 Installation on Windows:
 ========================
 It is recommended to use an IDE (CLion, Visual Studio, ...) but everything can be done without as well  
-  
+
+To use the Framework using Visual Studio or CLion you can follow [this](https://www.youtube.com/watch?v=AjvwygYQT1k&feature=youtu.be) video.  
+
 **Requirements**:  
 - [git](https://gitforwindows.org/)
 - [cmake](https://cmake.org/download/)
