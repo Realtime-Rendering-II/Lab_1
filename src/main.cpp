@@ -90,6 +90,7 @@ GLuint createShader(std::string const &vertexShaderPath, std::string const &frag
     return shaderProgram;
 }
 
+//TODO: implement task 1
 GLuint createTriangle() {
     GLuint VAO; // vertex buffer object
     GLuint VBO; // vertex array object
@@ -140,8 +141,9 @@ GLuint createTriangle() {
     return VAO;
 }
 
+// TODO: implement task 2
 GLuint createCube() {
-    // TODO: implement
+    
     return 0;
 }
 
@@ -188,8 +190,9 @@ void draw_triangle(GLuint shader, GLuint VAO) {
 
 }
 
+
 void draw_cube(GLuint shader, GLuint VAO) {
-    // TODO: implement
+// TODO: implement 
 }
 
 // this function is called when a key is pressed
