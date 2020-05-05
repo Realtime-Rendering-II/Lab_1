@@ -104,7 +104,10 @@ This might help you to verify if the model is defined correctly.
 **First execution**: if the framework is executed for the first time it should look like this:  
   ![first](https://www.uni-weimar.de/~bexo5814/rrII/images/first_compile.png)  
   
-**Final result**: the final result should look like this:   
+**Final result**: the final results should look like this:   
+  colored triangle:  
+  ![result](https://www.uni-weimar.de/~bexo5814/rrII/images/result_triangle.png)  
+  colored cube:  
   ![result](https://www.uni-weimar.de/~bexo5814/rrII/images/result.png)  
      
   with wireframe activated:  
